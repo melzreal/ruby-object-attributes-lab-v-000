@@ -1,5 +1,9 @@
 class Dog 
-
+  
+  def initialize(name)
+    @name = name
+  end
+  
   def name
    @name
   end
@@ -8,11 +12,15 @@ class Dog
     @name = name
   end
   
-  def job(job)
+  def initjob(job)
     @job = job
   end
   
   def job
+    @job
+  end
+  
+  def job(job)
     @job 
   end
   
