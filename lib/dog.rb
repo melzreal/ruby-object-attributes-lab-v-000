@@ -12,16 +12,16 @@ class Dog
     @name = name
   end
   
-  def initjob(job)
-    @job = job
+  def initbreed(breed)
+    @breed = breed
   end
   
-  def job
-    @job
+  def breed
+    @breed
   end
   
-  def job(job)
-    @job 
+  def breed(breed)
+    @breed = breed
   end
   
 end 
