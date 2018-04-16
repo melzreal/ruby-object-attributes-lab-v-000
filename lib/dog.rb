@@ -1,7 +1,7 @@
 class Dog 
   
 def name
-    puts "Woof!"
+  @name
 end
   
 def name(name)
